@@ -1,17 +1,19 @@
-import { Card } from "./components/card/card"
+// import { Card } from "./components/card/card"
+import { Order } from "./components/fakeStoredata/products"
+import { TrainData } from "./components/Train/t1"
 
 export const App = ()=>{
     return(
         <div>
-            <Card></Card>
-            <Card></Card>
             {/* <Card></Card>
+            <Card /> */}
 
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-         */}
+            <Order />
+
+            <TrainData />
+
+            
+         
 
 
         </div>
